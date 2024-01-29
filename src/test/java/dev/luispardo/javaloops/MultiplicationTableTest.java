@@ -7,7 +7,7 @@ public class MultiplicationTableTest {
 
     @Test
     public void testMultiplicationTable() {
-        int n = 7; // Podemos cambiar este valor para probar con diferentes números
+        int n = 7;
         int[] expected = {7, 14, 21, 28, 35, 42, 49, 56, 63, 70};
         assertArrayEquals(expected, generateMultiplicationTableArray(n));
     }
